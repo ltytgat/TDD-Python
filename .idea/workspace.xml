@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a904bff-dc4d-41b8-8904-82f3be061736" name="Changes" comment="&quot;Compilation&quot;">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="6a904bff-dc4d-41b8-8904-82f3be061736" name="Changes" comment="Chapter 2 - test Ok" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +105,39 @@
       <option name="project" value="LOCAL" />
       <updated>1721665737749</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test OK">
+      <option name="closed" value="true" />
+      <created>1721665846617</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721665846617</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Generalisation">
+      <option name="closed" value="true" />
+      <created>1721665921967</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721665921967</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Chapter 2 - New case">
+      <option name="closed" value="true" />
+      <created>1721666088969</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721666088969</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Chapter 2 - test Ok">
+      <option name="closed" value="true" />
+      <created>1721666151792</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721666151792</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +155,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init - first test" />
     <MESSAGE value="&quot;Compilation&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Compilation&quot;" />
+    <MESSAGE value="Test OK" />
+    <MESSAGE value="Generalisation" />
+    <MESSAGE value="Chapter 2 - New case" />
+    <MESSAGE value="Chapter 2 - test Ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 2 - test Ok" />
   </component>
 </project>
