@@ -3,4 +3,4 @@ class Dollar:
         self.amount = value
 
     def times(self, multiplier: int):
-        self.amount *= multiplier
+        return Dollar(self.amount * multiplier)
