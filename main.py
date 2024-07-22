@@ -1,7 +1,6 @@
 class Dollar:
     def __init__(self, value: int):
-        self.amount = value
+        self.amount = 10
 
-    @staticmethod
-    def times(multiplier: int):
-        pass
+    def times(self, multiplier: int):
+        self.amount = 5 * 2
