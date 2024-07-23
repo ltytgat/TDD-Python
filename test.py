@@ -1,4 +1,4 @@
-from main import Dollar
+from main import Dollar, Franc
 
 
 def test_multiplication():
