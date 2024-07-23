@@ -10,9 +10,9 @@ class Money:
 
 class Dollar(Money):
     def times(self, multiplier: int):
-        return Dollar(self._amount * multiplier)
+        return Money(self._amount * multiplier)
 
 
 class Franc(Money):
     def times(self, multiplier: int):
-        return Franc(self._amount * multiplier)
+        return Money(self._amount * multiplier)
