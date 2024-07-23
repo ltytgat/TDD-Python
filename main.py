@@ -1,9 +1,9 @@
 class Dollar:
     def __init__(self, value: int):
-        self.amount = value
+        self.__amount = value
 
     def times(self, multiplier: int):
-        return Dollar(self.amount * multiplier)
+        return Dollar(self.__amount * multiplier)
 
     def equals(self, obj):
-        return self.amount == obj.amount
+        return self.__amount == obj.__amount

@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a904bff-dc4d-41b8-8904-82f3be061736" name="Changes" comment="Chapter 3 - New test and method">
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+    <list default="true" id="6a904bff-dc4d-41b8-8904-82f3be061736" name="Changes" comment="Chapter 3 - test OK - generalisation">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python tests.Python tests for test.test_multiplication.executor": "Run",
-    "Python tests.Python tests in test.py.executor": "Debug",
+    "Python tests.Python tests in test.py.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ignore.virus.scanning.warn.message": "true",
     "settings.editor.selected.configurable": "terminal"
@@ -164,7 +164,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721666333079</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Chapter 3 - new false case">
+      <option name="closed" value="true" />
+      <created>1721666585467</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1721666585467</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Chapter 3 - test OK - generalisation">
+      <option name="closed" value="true" />
+      <created>1721666678726</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721666678726</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,17 +203,8 @@
     <MESSAGE value="Chapter 2 - New case" />
     <MESSAGE value="Chapter 2 - test Ok" />
     <MESSAGE value="Chapter 3 - New test and method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 3 - New test and method" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Chapter 3 - new false case" />
+    <MESSAGE value="Chapter 3 - test OK - generalisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 3 - test OK - generalisation" />
   </component>
 </project>
