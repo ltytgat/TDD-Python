@@ -3,7 +3,7 @@ class Money:
         self._amount = value
 
     def __eq__(self, other):
-        if isinstance(other, Money):
+        if isinstance(other, type(self)):
             return self._amount == other._amount
         return False
 

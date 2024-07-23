@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a904bff-dc4d-41b8-8904-82f3be061736" name="Changes" comment="Chapter 3 - test OK - generalisation">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="6a904bff-dc4d-41b8-8904-82f3be061736" name="Changes" comment="Chapter 7 - Franc != Dollar - new test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,9 +23,9 @@
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="333393f0-9aad-48ce-84ab-c5cd7d2e4f2d" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2jbmquUTxMDE81i1146uDFwK8Nz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -36,16 +34,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python tests.Python tests for test.test_multiplication.executor": "Run",
-    "Python tests.Python tests in test.py.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "settings.editor.selected.configurable": "terminal"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test.test_multiplication.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test.py.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="TDD-Python" is-module-sdk="true">
@@ -180,7 +178,55 @@
       <option name="project" value="LOCAL" />
       <updated>1721666678726</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Chapter 4 - Privacy amount">
+      <option name="closed" value="true" />
+      <created>1721747597158</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1721747597158</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Chapter 4 - Test ok">
+      <option name="closed" value="true" />
+      <created>1721747655327</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1721747655327</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Chapter 5 - Franc - new test">
+      <option name="closed" value="true" />
+      <created>1721747732050</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1721747732050</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Chapter 5 - Franc - new class - test OK">
+      <option name="closed" value="true" />
+      <created>1721747874066</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1721747874066</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Chapter 6 - Refactor Money">
+      <option name="closed" value="true" />
+      <created>1721748176493</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1721748176493</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Chapter 7 - Franc != Dollar - new test">
+      <option name="closed" value="true" />
+      <created>1721748234906</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1721748234906</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +251,12 @@
     <MESSAGE value="Chapter 3 - New test and method" />
     <MESSAGE value="Chapter 3 - new false case" />
     <MESSAGE value="Chapter 3 - test OK - generalisation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 3 - test OK - generalisation" />
+    <MESSAGE value="Chapter 4 - Privacy amount" />
+    <MESSAGE value="Chapter 4 - Test ok" />
+    <MESSAGE value="Chapter 5 - Franc - new test" />
+    <MESSAGE value="Chapter 5 - Franc - new class - test OK" />
+    <MESSAGE value="Chapter 6 - Refactor Money" />
+    <MESSAGE value="Chapter 7 - Franc != Dollar - new test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 7 - Franc != Dollar - new test" />
   </component>
 </project>
