@@ -7,12 +7,20 @@ class Money:
             return self._amount == other._amount
         return False
 
+    @staticmethod
+    def dollar(amount: int):
+        return Dollar(amount)
+
+    @staticmethod
+    def franc(amount: int):
+        return Franc(amount)
+
 
 class Dollar(Money):
     def times(self, multiplier: int):
-        return Money(self._amount * multiplier)
+        return Dollar(self._amount * multiplier)
 
 
 class Franc(Money):
     def times(self, multiplier: int):
-        return Money(self._amount * multiplier)
+        return Franc(self._amount * multiplier)
