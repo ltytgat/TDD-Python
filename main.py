@@ -1,7 +1,7 @@
 class Money:
-    def __init__(self, value: int):
+    def __init__(self, value: int, currency: str):
         self._amount = value
-        self._currency = ""
+        self._currency = currency
 
     def __eq__(self, other):
         if isinstance(other, type(self)):
@@ -22,8 +22,7 @@ class Money:
 
 class Dollar(Money):
     def __init__(self, value: int, cur: str):
-        super().__init__(value)
-        self._currency = cur
+        super().__init__(value, cur)
 
     def times(self, multiplier: int):
         return Dollar(self._amount * multiplier, None)
@@ -31,8 +30,7 @@ class Dollar(Money):
 
 class Franc(Money):
     def __init__(self, value: int, cur: str):
-        super().__init__(value)
-        self._currency = cur
+        super().__init__(value, cur)
 
     def times(self, multiplier: int):
         return Franc(self._amount * multiplier, None)
