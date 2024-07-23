@@ -5,5 +5,5 @@ class Dollar:
     def times(self, multiplier: int):
         return Dollar(self.__amount * multiplier)
 
-    def equals(self, obj):
-        return self.__amount == obj.__amount
+    def __eq__(self, other):
+        return self.__amount == other.__amount
