@@ -27,7 +27,9 @@ class Money:
 class Bank:
     @staticmethod
     def reduce(source, to):
-        return Money.dollar(10)
+        summ = source
+        amount = summ.augend._amount + summ.addend._amount
+        return Money(amount, to)
 
 
 class Summ:
