@@ -29,5 +29,8 @@ def test_different_class_equality():
 
 
 def test_simple_addition():
-    som = Money.dollar(5).plus(Money.dollar(5))
-    assert Money.dollar(10) == som
+    five = Money.dollar(5)
+    som = five.plus(five)
+    bank = Bank()
+    reduced = bank.reduce(som, "USD")
+    assert Money.dollar(10) == reduced
