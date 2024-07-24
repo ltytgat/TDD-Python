@@ -26,3 +26,8 @@ def test_currency():
 
 def test_different_class_equality():
     assert Money(10, "CHF") == Money.franc(10)
+
+
+def test_simple_addition():
+    som = Money.dollar(5).plus(Money.dollar(5))
+    assert Money.dollar(10) == som
