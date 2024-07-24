@@ -30,7 +30,15 @@ def test_different_class_equality():
 
 def test_simple_addition():
     five = Money.dollar(5)
-    som = five.plus(five)
+    summ = five.plus(five)
     bank = Bank()
-    reduced = bank.reduce(som, "USD")
+    reduced = bank.reduce(summ, "USD")
     assert Money.dollar(10) == reduced
+
+
+def test_plus_return_sum():
+    five = Money.dollar(5)
+    result = five.plus(five)
+    summ = Summ(result)
+    assert five == summ.augend
+    assert five == summ.addend
