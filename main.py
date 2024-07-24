@@ -27,12 +27,14 @@ class Money:
 class Bank:
     @staticmethod
     def reduce(source, to):
-        summ = source
-        amount = summ.augend._amount + summ.addend._amount
-        return Money(amount, to)
+        return source.reduce(to)
 
 
 class Summ:
     def __init__(self, augend: Money, addend: Money):
         self.augend = augend
         self.addend = addend
+
+    def reduce(self, to: str):
+        amount = self.augend._amount + self.addend._amount
+        return Money(amount, to)
