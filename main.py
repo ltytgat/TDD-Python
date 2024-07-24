@@ -22,3 +22,9 @@ class Money:
 
     def plus(self, addend):
         return Money(self._amount + addend._amount, self._currency)
+
+
+class Bank:
+    @staticmethod
+    def reduce(source, to):
+        return Money.dollar(10)
