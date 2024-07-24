@@ -4,9 +4,7 @@ class Money:
         self._currency = currency
 
     def __eq__(self, other):
-        if isinstance(other, type(self)):
-            return self._amount == other._amount
-        return False
+        return self._amount == other._amount and self._currency == other._currency
 
     @staticmethod
     def dollar(amount: int):
@@ -25,7 +23,7 @@ class Dollar(Money):
         super().__init__(value, cur)
 
     def times(self, multiplier: int):
-        return Money.dollar(self._amount * multiplier)
+        return Money(self._amount * multiplier, self._currency)
 
 
 class Franc(Money):
@@ -33,4 +31,4 @@ class Franc(Money):
         super().__init__(value, cur)
 
     def times(self, multiplier: int):
-        return Money.franc(self._amount * multiplier)
+        return Money(self._amount * multiplier, self._currency)
