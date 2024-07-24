@@ -42,3 +42,10 @@ def test_plus_return_sum():
     summ = result
     assert five == summ.augend
     assert five == summ.addend
+
+
+def test_reduce_sum():
+    summ = Summ(Money.dollar(3), Money.dollar(4))
+    bank = Bank()
+    result = bank.reduce(summ, "USD")
+    assert Money.dollar(7) == result
