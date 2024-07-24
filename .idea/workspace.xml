@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a904bff-dc4d-41b8-8904-82f3be061736" name="Changes" comment="Chapter 7 - Franc != Dollar - new test" />
+    <list default="true" id="6a904bff-dc4d-41b8-8904-82f3be061736" name="Changes" comment="Chapter 10 -">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,16 +36,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for test.test_multiplication.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test.py.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python tests.Python tests for test.test_franc_multiplication.executor": "Run",
+    "Python tests.Python tests for test.test_multiplication.executor": "Run",
+    "Python tests.Python tests in test.py.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "terminal"
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="TDD-Python" is-module-sdk="true">
@@ -53,6 +56,21 @@
     </option>
   </component>
   <component name="RunManager" selected="Python tests.Python tests in test.py">
+    <configuration name="Python tests for test.test_franc_multiplication" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="TDD-Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.test_franc_multiplication&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test.test_multiplication" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="TDD-Python" />
       <option name="ENV_FILES" value="" />
@@ -86,6 +104,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests in test.py" />
+        <item itemvalue="Python tests.Python tests for test.test_franc_multiplication" />
         <item itemvalue="Python tests.Python tests for test.test_multiplication" />
       </list>
     </recent_temporary>
@@ -226,7 +245,63 @@
       <option name="project" value="LOCAL" />
       <updated>1721748234906</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Chapter 7 - test Ok">
+      <option name="closed" value="true" />
+      <created>1721748345704</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1721748345704</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Chapter 8 - merge Franc and Dollar in Money - new test">
+      <option name="closed" value="true" />
+      <created>1721748472920</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1721748472920</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Chapter 8 - Test OK">
+      <option name="closed" value="true" />
+      <created>1721748981233</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1721748981233</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Chapter 9 - Currency - new test">
+      <option name="closed" value="true" />
+      <created>1721749087969</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1721749087969</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Chapter 9 - Test ok - first step">
+      <option name="closed" value="true" />
+      <created>1721749398549</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1721749398549</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Chapter 9 - Test ok - second step">
+      <option name="closed" value="true" />
+      <created>1721749527288</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1721749527288</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Chapter 9 - Test ok - final step">
+      <option name="closed" value="true" />
+      <created>1721749595510</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1721749595510</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -257,6 +332,13 @@
     <MESSAGE value="Chapter 5 - Franc - new class - test OK" />
     <MESSAGE value="Chapter 6 - Refactor Money" />
     <MESSAGE value="Chapter 7 - Franc != Dollar - new test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 7 - Franc != Dollar - new test" />
+    <MESSAGE value="Chapter 7 - test Ok" />
+    <MESSAGE value="Chapter 8 - merge Franc and Dollar in Money - new test" />
+    <MESSAGE value="Chapter 8 - Test OK" />
+    <MESSAGE value="Chapter 9 - Currency - new test" />
+    <MESSAGE value="Chapter 9 - Test ok - first step" />
+    <MESSAGE value="Chapter 9 - Test ok - second step" />
+    <MESSAGE value="Chapter 9 - Test ok - final step" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 9 - Test ok - final step" />
   </component>
 </project>
