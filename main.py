@@ -21,10 +21,16 @@ class Money:
         return Money(self._amount * multiplier, self._currency)
 
     def plus(self, addend):
-        return Money(self._amount + addend._amount, self._currency)
+        return Summ(self, addend)
 
 
 class Bank:
     @staticmethod
     def reduce(source, to):
         return Money.dollar(10)
+
+
+class Summ:
+    def __init__(self, augend: Money, addend: Money):
+        self.augend = augend
+        self.addend = addend

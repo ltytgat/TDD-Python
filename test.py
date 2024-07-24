@@ -1,4 +1,4 @@
-from main import Money, Bank
+from main import Money, Bank, Summ
 
 
 def test_multiplication():
@@ -39,6 +39,6 @@ def test_simple_addition():
 def test_plus_return_sum():
     five = Money.dollar(5)
     result = five.plus(five)
-    summ = Summ(result)
+    summ = result
     assert five == summ.augend
     assert five == summ.addend
