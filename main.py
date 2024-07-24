@@ -23,6 +23,9 @@ class Money:
     def plus(self, addend):
         return Summ(self, addend)
 
+    def reduce(self, to):
+        return self
+
 
 class Bank:
     @staticmethod
