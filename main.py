@@ -23,14 +23,27 @@ class Money:
     def plus(self, addend):
         return Summ(self, addend)
 
-    def reduce(self, to):
-        return self
+    def reduce(self, bank, to):
+        rate = bank.rate(self._currency, to)
+        return Money(int(self._amount / rate), to)
 
 
 class Bank:
-    @staticmethod
-    def reduce(source, to):
-        return source.reduce(to)
+    def __init__(self):
+        self.rates = {}
+
+    def reduce(self, source, to):
+        return source.reduce(self, to)
+
+    def rate(self, origin, to):
+        if origin == to:
+            return 1
+        pair = Pair(origin, to)
+        rate = self.rates[str(pair)]
+        return int(rate)
+
+    def add_rate(self, origin, to, rate):
+        self.rates[str(Pair(origin, to))] = rate
 
 
 class Summ:
@@ -38,6 +51,18 @@ class Summ:
         self.augend = augend
         self.addend = addend
 
-    def reduce(self, to: str):
+    def reduce(self, bank, to: str):
         amount = self.augend._amount + self.addend._amount
         return Money(amount, to)
+
+
+class Pair:
+    def __init__(self, origin, to):
+        self.origin = origin
+        self.to = to
+
+    def __eq__(self, other):
+        return self.origin == other.origin and self.to == other.to
+
+    def __str__(self):
+        return f"{self.origin}-{self.to}"

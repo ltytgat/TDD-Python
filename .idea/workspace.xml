@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a904bff-dc4d-41b8-8904-82f3be061736" name="Changes" comment="Chapter 13 - test Ok">
+    <list default="true" id="6a904bff-dc4d-41b8-8904-82f3be061736" name="Changes" comment="Chapter 14 - new test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,17 +38,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for test.test_franc_multiplication.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.test_multiplication.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test.py.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python tests.Python tests for test.test_equals.executor": "Run",
+    "Python tests.Python tests for test.test_franc_multiplication.executor": "Run",
+    "Python tests.Python tests for test.test_multiplication.executor": "Run",
+    "Python tests.Python tests for test.test_simple_addition.executor": "Run",
+    "Python tests.Python tests in test.py.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "terminal"
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="TDD-Python" is-module-sdk="true">
@@ -56,6 +60,21 @@
     </option>
   </component>
   <component name="RunManager" selected="Python tests.Python tests in test.py">
+    <configuration name="Python tests for test.test_equals" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="TDD-Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.test_equals&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test.test_franc_multiplication" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="TDD-Python" />
       <option name="ENV_FILES" value="" />
@@ -86,6 +105,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test.test_simple_addition" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="TDD-Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.test_simple_addition&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="TDD-Python" />
       <option name="ENV_FILES" value="" />
@@ -104,6 +138,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests in test.py" />
+        <item itemvalue="Python tests.Python tests for test.test_equals" />
+        <item itemvalue="Python tests.Python tests for test.test_simple_addition" />
         <item itemvalue="Python tests.Python tests for test.test_franc_multiplication" />
         <item itemvalue="Python tests.Python tests for test.test_multiplication" />
       </list>
@@ -421,7 +457,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721836983800</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Chapter 14 - new test">
+      <option name="closed" value="true" />
+      <created>1721921549310</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1721921549310</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -437,7 +481,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Chapter 5 - Franc - new class - test OK" />
     <MESSAGE value="Chapter 6 - Refactor Money" />
     <MESSAGE value="Chapter 7 - Franc != Dollar - new test" />
     <MESSAGE value="Chapter 7 - test Ok" />
@@ -462,6 +505,7 @@
     <MESSAGE value="Chapter 13 - next step Ok" />
     <MESSAGE value="Chapter 13 - refactor" />
     <MESSAGE value="Chapter 13 - test Ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 13 - test Ok" />
+    <MESSAGE value="Chapter 14 - new test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 14 - new test" />
   </component>
 </project>
