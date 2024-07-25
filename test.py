@@ -55,3 +55,10 @@ def test_reduce_money():
     bank = Bank()
     result = bank.reduce(Money.dollar(1), "USD")
     assert Money.dollar(1) == result
+
+
+def test_reduce_money_different_currency():
+    bank = Bank()
+    bank.add_rate("CHF", "USD", 2)
+    result = bank.reduce(Money.franc(2), "USD")
+    assert Money.dollar(1) == result

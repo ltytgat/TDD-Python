@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a904bff-dc4d-41b8-8904-82f3be061736" name="Changes" comment="Chapter 12 - first step OK">
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+    <list default="true" id="6a904bff-dc4d-41b8-8904-82f3be061736" name="Changes" comment="Chapter 13 - test Ok">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -357,7 +357,71 @@
       <option name="project" value="LOCAL" />
       <updated>1721835684570</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Chapter 12 - introduce bank">
+      <option name="closed" value="true" />
+      <created>1721835875560</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1721835875560</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Chapter 12 - Test Ok">
+      <option name="closed" value="true" />
+      <created>1721836043513</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1721836043513</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Chapter 13 - new test">
+      <option name="closed" value="true" />
+      <created>1721836212143</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1721836212143</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Chapter 13 - first step OK">
+      <option name="closed" value="true" />
+      <created>1721836433521</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1721836433521</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Chapter 13 - new test - reduce sum">
+      <option name="closed" value="true" />
+      <created>1721836522160</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1721836522160</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Chapter 13 - next step Ok">
+      <option name="closed" value="true" />
+      <created>1721836643755</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1721836643755</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Chapter 13 - refactor">
+      <option name="closed" value="true" />
+      <created>1721836754759</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1721836754759</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Chapter 13 - test Ok">
+      <option name="closed" value="true" />
+      <created>1721836983800</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1721836983800</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -373,14 +437,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Chapter 2 - New case" />
-    <MESSAGE value="Chapter 2 - test Ok" />
-    <MESSAGE value="Chapter 3 - New test and method" />
-    <MESSAGE value="Chapter 3 - new false case" />
-    <MESSAGE value="Chapter 3 - test OK - generalisation" />
-    <MESSAGE value="Chapter 4 - Privacy amount" />
-    <MESSAGE value="Chapter 4 - Test ok" />
-    <MESSAGE value="Chapter 5 - Franc - new test" />
     <MESSAGE value="Chapter 5 - Franc - new class - test OK" />
     <MESSAGE value="Chapter 6 - Refactor Money" />
     <MESSAGE value="Chapter 7 - Franc != Dollar - new test" />
@@ -398,6 +454,14 @@
     <MESSAGE value="Chapter 11 - test Ok" />
     <MESSAGE value="Chapter 12 - new test - addition" />
     <MESSAGE value="Chapter 12 - first step OK" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 12 - first step OK" />
+    <MESSAGE value="Chapter 12 - introduce bank" />
+    <MESSAGE value="Chapter 12 - Test Ok" />
+    <MESSAGE value="Chapter 13 - new test" />
+    <MESSAGE value="Chapter 13 - first step OK" />
+    <MESSAGE value="Chapter 13 - new test - reduce sum" />
+    <MESSAGE value="Chapter 13 - next step Ok" />
+    <MESSAGE value="Chapter 13 - refactor" />
+    <MESSAGE value="Chapter 13 - test Ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 13 - test Ok" />
   </component>
 </project>
