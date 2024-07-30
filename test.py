@@ -76,3 +76,13 @@ def test_mixed_addition():
     bank.add_rate("CHF", "USD", 2)
     result = bank.reduce(five_dol.plus(ten_fr), "USD")
     assert Money.dollar(10) == result
+
+
+def test_sum_plus_money():
+    five_dol = Money.dollar(5)
+    ten_fr = Money.franc(10)
+    bank = Bank()
+    bank.add_rate("CHF", "USD", 2)
+    som = Summ(five_dol, ten_fr).plus(five_dol)
+    result = bank.reduce(som, "USD")
+    assert Money.dollar(15) == result

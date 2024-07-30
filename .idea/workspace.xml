@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a904bff-dc4d-41b8-8904-82f3be061736" name="Changes" comment="Chapter 14 - tests Ok" />
+    <list default="true" id="6a904bff-dc4d-41b8-8904-82f3be061736" name="Changes" comment="Chapter 16 -" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -477,7 +477,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721923430574</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Chapter 15 - new test">
+      <option name="closed" value="true" />
+      <created>1722264365408</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1722264365408</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Chapter 15 - test Ok">
+      <option name="closed" value="true" />
+      <created>1722264532593</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1722264532593</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -493,8 +509,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Chapter 7 - Franc != Dollar - new test" />
-    <MESSAGE value="Chapter 7 - test Ok" />
     <MESSAGE value="Chapter 8 - merge Franc and Dollar in Money - new test" />
     <MESSAGE value="Chapter 8 - Test OK" />
     <MESSAGE value="Chapter 9 - Currency - new test" />
@@ -518,6 +532,8 @@
     <MESSAGE value="Chapter 13 - test Ok" />
     <MESSAGE value="Chapter 14 - new test" />
     <MESSAGE value="Chapter 14 - tests Ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 14 - tests Ok" />
+    <MESSAGE value="Chapter 15 - new test" />
+    <MESSAGE value="Chapter 15 - test Ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 15 - test Ok" />
   </component>
 </project>
