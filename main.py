@@ -55,6 +55,9 @@ class Summ:
         amount = self.augend.reduce(bank, to)._amount + self.addend.reduce(bank, to)._amount
         return Money(amount, to)
 
+    def plus(self, addend):
+        return Summ(self.augend, addend)
+
 
 class Pair:
     def __init__(self, origin, to):
