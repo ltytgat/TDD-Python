@@ -96,3 +96,8 @@ def test_sum_times():
     som = Summ(five_dol, ten_fr).times(2)
     result = bank.reduce(som, "USD")
     assert Money.dollar(20) == result
+
+
+def test_plus_same_curr_return_money():
+    som = Money.dollar(1).plus(Money.dollar(1))
+    assert isinstance(som, Money)
