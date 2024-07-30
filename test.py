@@ -86,3 +86,13 @@ def test_sum_plus_money():
     som = Summ(five_dol, ten_fr).plus(five_dol)
     result = bank.reduce(som, "USD")
     assert Money.dollar(15) == result
+
+
+def test_sum_times():
+    five_dol = Money.dollar(5)
+    ten_fr = Money.franc(10)
+    bank = Bank()
+    bank.add_rate("CHF", "USD", 2)
+    som = Summ(five_dol, ten_fr).times(2)
+    result = bank.reduce(som, "USD")
+    assert Money.dollar(20) == result
