@@ -56,7 +56,10 @@ class Summ:
         return Money(amount, to)
 
     def plus(self, addend):
-        return Summ(self.augend, addend)
+        return Summ(self, addend)
+
+    def times(self, multi):
+        return Summ(self.augend.times(multi), self.addend.times(multi))
 
 
 class Pair:
