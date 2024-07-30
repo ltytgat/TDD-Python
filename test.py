@@ -30,7 +30,7 @@ def test_different_class_equality():
 
 def test_simple_addition():
     five = Money.dollar(5)
-    summ = five.plus(five)
+    summ = Summ(five, five)
     bank = Bank()
     reduced = bank.reduce(summ, "USD")
     assert Money.dollar(10) == reduced
@@ -38,7 +38,7 @@ def test_simple_addition():
 
 def test_plus_return_sum():
     five = Money.dollar(5)
-    result = five.plus(five)
+    result = Summ(five, five)
     summ = result
     assert five == summ.augend
     assert five == summ.addend
@@ -74,7 +74,7 @@ def test_mixed_addition():
     ten_fr = Money.franc(10)
     bank = Bank()
     bank.add_rate("CHF", "USD", 2)
-    result = bank.reduce(five_dol.plus(ten_fr), "USD")
+    result = bank.reduce(Summ(five_dol, ten_fr), "USD")
     assert Money.dollar(10) == result
 
 

@@ -20,12 +20,25 @@ class Money:
     def times(self, multiplier: int):
         return Money(self._amount * multiplier, self._currency)
 
-    def plus(self, addend):
-        return Summ(self, addend)
-
     def reduce(self, bank, to):
         rate = bank.rate(self._currency, to)
         return Money(int(self._amount / rate), to)
+
+
+class Summ:
+    def __init__(self, augend: Money, addend: Money):
+        self.augend = augend
+        self.addend = addend
+
+    def reduce(self, bank, to: str):
+        amount = self.augend.reduce(bank, to)._amount + self.addend.reduce(bank, to)._amount
+        return Money(amount, to)
+
+    def plus(self, addend):
+        return Summ(self, addend)
+
+    def times(self, multi):
+        return Summ(self.augend.times(multi), self.addend.times(multi))
 
 
 class Bank:
@@ -44,22 +57,6 @@ class Bank:
 
     def add_rate(self, origin, to, rate):
         self.rates[str(Pair(origin, to))] = rate
-
-
-class Summ:
-    def __init__(self, augend: Money, addend: Money):
-        self.augend = augend
-        self.addend = addend
-
-    def reduce(self, bank, to: str):
-        amount = self.augend.reduce(bank, to)._amount + self.addend.reduce(bank, to)._amount
-        return Money(amount, to)
-
-    def plus(self, addend):
-        return Summ(self, addend)
-
-    def times(self, multi):
-        return Summ(self.augend.times(multi), self.addend.times(multi))
 
 
 class Pair:
