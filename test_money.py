@@ -1,4 +1,4 @@
-from main import Money, Bank, Summ
+from money import Money, Bank, Summ
 
 
 def test_multiplication():

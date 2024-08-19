@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a904bff-dc4d-41b8-8904-82f3be061736" name="Changes" comment="Chapter 16 -" />
+    <list default="true" id="6a904bff-dc4d-41b8-8904-82f3be061736" name="Changes" comment="Chapter 17 - Review and personal refactor">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,9 +44,15 @@
     &quot;Python tests.Python tests for test.test_multiplication.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test.test_simple_addition.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scratch_1.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Python&quot;
+    ]
   }
 }</component>
   <component name="PyConsoleOptionsProvider">
@@ -55,8 +63,30 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test.py">
-    <configuration name="Python tests for test.test_equals" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests in test_money.py">
+    <configuration name="scratch_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TDD-Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_money" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="TDD-Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,11 +97,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_equals&quot;" />
+      <option name="_new_target" value="&quot;test_money&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.test_franc_multiplication" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_money.test_franc_multiplication" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="TDD-Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,11 +112,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_franc_multiplication&quot;" />
+      <option name="_new_target" value="&quot;test_money.test_franc_multiplication&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.test_multiplication" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_money.test_simple_addition" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="TDD-Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,11 +127,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_multiplication&quot;" />
+      <option name="_new_target" value="&quot;test_money.test_simple_addition&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.test_simple_addition" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_money.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="TDD-Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,32 +142,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_simple_addition&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="TDD-Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_money.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in test.py" />
-        <item itemvalue="Python tests.Python tests for test.test_equals" />
-        <item itemvalue="Python tests.Python tests for test.test_simple_addition" />
-        <item itemvalue="Python tests.Python tests for test.test_franc_multiplication" />
-        <item itemvalue="Python tests.Python tests for test.test_multiplication" />
+        <item itemvalue="Python tests.Python tests in test_money.py" />
+        <item itemvalue="Python.scratch_1" />
+        <item itemvalue="Python tests.Python tests for test_money" />
+        <item itemvalue="Python tests.Python tests for test_money.test_simple_addition" />
+        <item itemvalue="Python tests.Python tests for test_money.test_franc_multiplication" />
       </list>
     </recent_temporary>
   </component>
@@ -493,7 +508,63 @@
       <option name="project" value="LOCAL" />
       <updated>1722264532593</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Chapter 16 - new test">
+      <option name="closed" value="true" />
+      <created>1722352959274</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1722352959274</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Chapter 16 - first step">
+      <option name="closed" value="true" />
+      <created>1722353083545</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1722353083545</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Chapter 16 - new test">
+      <option name="closed" value="true" />
+      <created>1722353161397</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1722353161397</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Chapter 16 - second step">
+      <option name="closed" value="true" />
+      <created>1722353502027</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1722353502027</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Chapter 16 - test to delete">
+      <option name="closed" value="true" />
+      <created>1722353671498</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1722353671498</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Chapter 16 - test Ok">
+      <option name="closed" value="true" />
+      <created>1722353683084</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1722353683084</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Chapter 17 - Review and personal refactor">
+      <option name="closed" value="true" />
+      <created>1722353967530</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1722353967530</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -509,12 +580,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Chapter 8 - merge Franc and Dollar in Money - new test" />
-    <MESSAGE value="Chapter 8 - Test OK" />
-    <MESSAGE value="Chapter 9 - Currency - new test" />
-    <MESSAGE value="Chapter 9 - Test ok - first step" />
-    <MESSAGE value="Chapter 9 - Test ok - second step" />
-    <MESSAGE value="Chapter 9 - Test ok - final step" />
     <MESSAGE value="Chapter 10 - New test" />
     <MESSAGE value="Chapter 10 - step before refactor &quot;times&quot;" />
     <MESSAGE value="Chapter 10 - test Ok" />
@@ -534,6 +599,12 @@
     <MESSAGE value="Chapter 14 - tests Ok" />
     <MESSAGE value="Chapter 15 - new test" />
     <MESSAGE value="Chapter 15 - test Ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 15 - test Ok" />
+    <MESSAGE value="Chapter 16 - first step" />
+    <MESSAGE value="Chapter 16 - new test" />
+    <MESSAGE value="Chapter 16 - second step" />
+    <MESSAGE value="Chapter 16 - test to delete" />
+    <MESSAGE value="Chapter 16 - test Ok" />
+    <MESSAGE value="Chapter 17 - Review and personal refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 17 - Review and personal refactor" />
   </component>
 </project>
